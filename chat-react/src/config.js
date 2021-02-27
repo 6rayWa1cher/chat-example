@@ -1,0 +1,3 @@
+export const baseUrl = 'http://localhost:8080';
+
+export const wsEndpointUrl = baseUrl + '/ws';
