@@ -5,10 +5,7 @@ import lombok.Data;
 import javax.validation.constraints.NotBlank;
 
 @Data
-public class ChatMessage {
+public class IncomeChatMessage {
     @NotBlank
     private String body;
-
-    @NotBlank
-    private String author;
 }
