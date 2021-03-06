@@ -1,9 +1,7 @@
-import Chatter from "./Chatter";
-
 function App() {
     return (
         <>
-            <Chatter/>
+            {"Hello!"}
         </>
     );
 }
